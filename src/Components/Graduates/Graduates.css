@@ -1,0 +1,151 @@
+.grad-container {
+  width: 80%;
+  max-width: 1080px;
+  margin: auto;
+  position: relative;
+}
+
+.grad-content {
+  padding: 27px 0;
+}
+
+.grad-title,
+.grad-para {
+  max-width: 600px;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+
+.grad-title {
+  font-family: "Rubik";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2b76df;
+  letter-spacing: 5px;
+  padding-bottom: 10px;
+}
+
+.grad-para {
+  font-family: "Rubik";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 56px;
+  color: #333333;
+}
+.grad-container--main {
+  display: flex;
+  gap: 60px;
+  padding: 2% 0;
+}
+.grad-container--inner {
+  width: 29.6667%;
+}
+.grad-img {
+  border-radius: 10px 10px 10px 10px;
+  overflow: hidden;
+  margin: 0 0 12px;
+}
+
+.grad-img--inner {
+  height: auto;
+  max-width: 100%;
+}
+.grad-inner--title {
+  font-family: "Rubik";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 31px;
+  color: #4c5c67;
+}
+
+.grad-inner--tag1 {
+  font-family: "Rubik";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 28px;
+  color: #aaaaaa;
+  margin: 0;
+  padding-top: 10px;
+}
+.grad-inner--tag2 {
+  font-family: "Rubik";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 28px;
+  color: #aaaaaa;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 2.5em;
+}
+.grad-inner--tag3 {
+  font-family: "Rubik";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 28px;
+  color: #aaaaaa;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 3em;
+}
+.grad-inner--para1,
+.grad-inner--para2 {
+  font-family: "Rubik";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 28px;
+  color: #666666;
+}
+.grad-inner--para1 {
+  padding-bottom: 1em;
+}
+.grad-inner--para2 {
+  margin: 1em 0 0 0;
+}
+
+@media (width<=980px) {
+    .grad-container--main{
+        flex-direction: column;
+        padding: 30px 0;
+    }
+    
+    .grad-container--inner{
+        display: flex;
+        width:100%;
+    }
+  .grad-inner--content{
+    max-width: 400px;
+    margin-left: 35px;
+  }
+  .grad-img, .grad-inner--content{
+    width: 50%;
+  }
+}
+
+@media (width<=780px) {
+    .grad-container--inner{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+    }
+  .grad-inner--content{
+    max-width: 100%;
+    margin-left: 0px;
+  }
+  .grad-img, .grad-inner--content{
+    width: auto;
+  }
+}
+
+@media (width<=500px) {
+  .grad-content {
+    padding: 0 0 27px 0;
+  }
+}

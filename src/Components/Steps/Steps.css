@@ -1,0 +1,190 @@
+.step-background{
+    
+    background-image: url("./../Images//stepsBackground.png");
+    /* height: 1581.4px; */
+    /* transform: translate(0px, 444.849px); */
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 180%;
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* left: 0; */
+    width: 100%;
+}
+
+.step-container{
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+    position: relative;
+    padding: 27px 0;
+}
+
+  .step-back--img{
+ height: 200px;
+ margin-top: -95px;
+}
+.step-back--img_inner{
+    height: 390px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.step-container--inner{
+    max-width: 550px;
+    margin: 0 auto;
+    position: relative;
+    width: 20.875%;
+    box-shadow: 0px 10px 60px -10px rgb(91 36 161 / 25%);
+    border-radius:22px;
+    background-color: lightgray;
+    padding: 30px 10px 30px 10px;
+}
+.step-container--inner:hover{
+    box-shadow: 0px 40px 150px -10px rgb(91 36 161 / 12%);
+    cursor: pointer;
+}
+
+.step-title{
+    font-family: "Fredoka One";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 72px;
+    color: #333333;
+    text-align: center;
+    padding: 27px 0 50px 0;
+}
+.step-cards{
+    display: flex;
+    padding: 27px 0;
+    text-align: center;
+    column-gap: 40px;
+}
+
+.step-card--title{
+    font-family: "Fredoka One";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 40px;
+    color: #333333;
+    padding-bottom: 10px;
+}
+
+ .step-card--para{
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #666666;
+}
+.step-card--img1{
+    background: #5D58EF;
+    display: inline-block;
+    border-radius: 100%;
+    margin-bottom: 30px;
+    padding: 25px;
+}
+.step-card--img2{
+    background: #FF236C;
+    display: inline-block;
+     
+    border-radius: 100%;
+    margin-bottom: 30px;
+    padding: 25px;
+}
+.step-card--img3{
+    background-color: #ffc259;
+    display: inline-block;
+    border-radius: 100%;
+    margin-bottom: 30px;
+    padding: 25px;
+}
+.step-card--img4{
+    background-color: #ff7f59;
+    display: inline-block;
+    border-radius: 100%;
+    margin-bottom: 30px;
+    padding: 25px;
+}
+
+.step-img--inner{
+    height: 48px;
+    width: 48px;
+    color: white;
+    
+}
+
+ 
+
+
+@media (width<=980px){
+    .step-title{
+        font-size: 50px;
+        line-height: 60px;
+        
+    }
+    .step-container--inner{
+        max-width: 550px;
+        margin: 0 auto;
+        position: relative;
+        width: 45%;
+    }
+    .step-cards{
+        display: flex;
+        flex-wrap: wrap !important;
+        column-gap: 40px;
+        row-gap: 30px;
+    }
+  
+}
+
+ 
+
+
+@media (width<=770px) {
+    .step-title,  .accordian-title{
+        font-size: 30px;
+        line-height: 36px;
+    }
+        .step-back--img{
+        height: 180px;
+       }
+       .step-back--img_inner{
+           height: 350px;
+           width: 100%;
+           max-width: 100%;
+       }
+    
+}
+
+@media (width<=550px) {
+    .step-card--para{
+        font-size: 14px;
+        line-height: 28px;
+    }
+}
+
+
+@media (width<=500px) {
+    .step-container--inner{
+        max-width: 550px;
+        margin: 0 auto;
+        position: relative;
+        width: 100%;
+    }
+    .step-back--img{
+        height: 50px;
+        margin-top: -30px;
+       }
+       .step-back--img_inner{
+           height: 125px;
+           width: 100%;
+           max-width: 100%;
+       }
+       .step-container{
+        padding: 27px 0 0 0;
+       }
+}

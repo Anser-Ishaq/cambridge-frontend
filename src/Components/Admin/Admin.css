@@ -1,0 +1,36 @@
+.admin-container {
+  width: 80%;
+  max-width: 1080px;
+  margin: auto;
+  position: relative;
+  padding: 85px 0;
+  /* overflow-y: scroll; */
+
+}
+.admin-btn {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  padding-bottom: 50px;
+}
+.admin-img{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap !important;
+    gap: 2rem;
+}
+.admin-images{
+    height: 200px;
+    width: 200px;
+
+}
+.admin-fields{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap !important;
+    gap: 3rem;
+    justify-content: space-between;
+}
+
+.admin-fields .admin-fld{
+    width: 100px;}

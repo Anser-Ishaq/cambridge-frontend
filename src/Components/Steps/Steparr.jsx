@@ -1,33 +1,33 @@
-import { SiReact } from "react-icons/si";
-import { HiOutlinePhotograph } from "react-icons/hi";
-import { TiLightbulb } from "react-icons/ti";
-import { TfiPencilAlt2 } from "react-icons/tfi";
+// import { SiReact } from "react-icons/si";
+// import { HiOutlinePhotograph } from "react-icons/hi";
+// import { TiLightbulb } from "react-icons/ti";
+// import { TfiPencilAlt2 } from "react-icons/tfi";
 
-const stepArr = [
-  {
-    stepIcon: <TfiPencilAlt2 />,
-    stepTitle: "Step 1:",
-    stepPara:
-      "Contact us by email or phone for an application form that includes a language awareness task.",
-  },
-  {
-    stepIcon: <SiReact />,
-    stepTitle: "Step 2:",
-    stepPara:
-      "You will then be given a short interview by phone, Skype, What’s App or Zoom.",
-  },
-  {
-    stepIcon: <HiOutlinePhotograph />,
-    stepTitle: "Step 3:",
-    stepPara:
-      "Once accepted, your place is confirmed on receipt of a 20% deposit. ",
-  },
-  {
-    stepIcon: <TiLightbulb />,
-    stepTitle: "Step 4:",
-    stepPara:
-      "Complete the course. Graduate. Start your teaching adventure anywhere in the world!",
-  },
-];
+// const stepArr = [
+//   {
+//     id:"1",
+//     stepIcon: <TfiPencilAlt2  size={45} />,
+//     stepTitle: "Step 1:",
+//     stepPara:"Contact us so we can assess your grades and discuss possible options.",
+//   },
+//   {
+//     id:"2",
+//     stepIcon: <SiReact  size={45} />,
+//     stepTitle: "Step 2:",
+//     stepPara:"Pay the 1st part of our fee so we can prepare and send your file to the university.",
+//   },
+//   {
+//     id:"3",
+//     stepIcon: <HiOutlinePhotograph  size={45} />,
+//     stepTitle: "Step 3:",
+//     stepPara:"Once accepted, you pay the university fee and the subsequent fee. ",
+//   },
+//   {
+//     id:"4",
+//     stepIcon: <TiLightbulb  size={45} />,
+//     stepTitle: "Step 4:",
+//     stepPara:"We help you move to the city, get you set up and guidance on any supplementary information.",
+//   },
+// ];
 
-export default stepArr;
+// export default stepArr;

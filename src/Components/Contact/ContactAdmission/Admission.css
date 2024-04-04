@@ -1,0 +1,147 @@
+.admission-container {
+  width: 80%;
+  max-width: 1080px;
+  margin: auto;
+  position: relative;
+  padding: 27px 0;
+}
+
+.admission-img{
+    height: 255px;
+    margin-top: -95px;
+   }
+   .admission-img--inner{
+       height: 390px;
+       width: 100%;
+       max-width: 100%;
+   }
+
+
+.admission-title {
+  font-family: "Fredoka One";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 42px;
+  line-height: 50px;
+  color: #333333;
+  padding-bottom: 40px;
+}
+.admission-input {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.admission-input input {
+  border-radius: 5px 5px 5px 5px;
+  overflow: hidden;
+  background-color: rgba(114, 159, 193, 0.07);
+  border-width: 0;
+  padding: 14px;
+  width: 100%;
+  outline: none;
+}
+.admission-input textarea {
+  border-radius: 5px 5px 5px 5px;
+  overflow: hidden;
+  background-color: rgba(114, 159, 193, 0.07);
+  border-width: 0;
+  padding: 16px;
+  width: 100%;
+  min-height: 150px;
+  outline: none;
+}
+.admission-btn {
+  margin-top: -15px !important;
+  position: relative;
+  /* width: fit-content; */
+}
+
+.admission-btn--inner {
+  font-family: "Fredoka One";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 27px;
+  color: #ffffff;
+  border-width: 12px !important;
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 50px;
+  letter-spacing: 4px;
+  background-color: #ff7f59;
+  box-shadow: 0px 22px 64px -18px rgb(92 42 131 / 45%);
+  transition: all 300ms ease 0ms;
+  cursor: pointer;
+  padding: 0.3em 1em;
+  text-transform: uppercase;
+  position: absolute;
+  right: 0px;
+}
+
+.admission-icon--inner {
+  position: absolute;
+  right: 12px;
+  top: 23px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.admission-btn:hover .admission-icon--inner {
+  opacity: 1;
+  visibility: visible;
+}
+.admission-btn:hover .admission-btn--inner {
+  border: 2px solid transparent;
+  padding: 0.3em 2em 0.3em 0.7em;
+}
+@media (width<=980px) {
+    .admission-input {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+      }
+}
+
+
+@media (width<=750px) {
+    .admission-title {
+        font-size: 30px;
+        line-height: 36px;
+ 
+      }
+      .admission-img{
+        height: 220px;
+       }
+       .admission-img--inner{
+           height: 350px;
+           width: 100%;
+           max-width: 100%;
+       }
+
+
+}
+
+@media  (width<=550px) {
+    .admission-img{
+        height: 85px;
+        margin-top: -30px;
+       }
+       .admission-img--inner{
+           height: 125px;
+           width: 100%;
+           max-width: 100%;
+       }
+}
+
+@media (width<=550px) {
+    .admission-input {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+      }
+      .admission-btn {
+        margin-top: 0 !important;
+        position: relative;
+        /* width: fit-content; */
+      }
+}

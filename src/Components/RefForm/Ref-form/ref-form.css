@@ -1,0 +1,267 @@
+.refForm-container ,.success-container{
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+    position: relative;
+    padding: 27px 0;
+  }
+  
+  .refForm-img{
+      height: 350px;
+      margin-top: -95px;
+     }
+     .refForm-img--inner{
+         height: 550px;
+         width: 100%;
+         max-width: 100%;
+     }
+  
+  
+  .refForm-title {
+    font-family: "Fredoka One";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 42px;
+    line-height: 50px;
+    color: #333333;
+    padding-bottom:10px;
+  }
+  
+
+  .refForm-title--tag{
+    text-align: left;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 32px;
+    text-decoration: underline;
+    color: #333333;
+    cursor: pointer;
+  }
+ 
+
+  .refForm-title--det{
+    font-family: "Fredoka One";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 40px;
+    color: #333333;
+    padding:20px 0 0 0;
+  }
+  .refForm-input {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  
+  .refForm-input input {
+    border-radius: 5px 5px 5px 5px;
+    overflow: hidden;
+    background-color: rgba(114, 159, 193, 0.07);
+    border-width: 0;
+    padding: 14px;
+    width: 100%;
+    outline: none;
+  }
+  .refForm-input textarea {
+    border-radius: 5px 5px 5px 5px;
+    overflow: hidden;
+    background-color: rgba(114, 159, 193, 0.07);
+    border-width: 0;
+    padding: 16px;
+    width: 100%;
+    min-height: 150px;
+    outline: none;
+  }
+  .refForm-btn {
+    /* margin-top: -15px !important; */
+    position: relative;
+    /* width: fit-content; */
+  }
+  
+  .refForm-btn--inner {
+    font-family: "Fredoka One";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 27px;
+    color: #ffffff;
+    border-width: 12px !important;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    letter-spacing: 4px;
+    background-color: #ff7f59;
+    box-shadow: 0px 22px 64px -18px rgb(92 42 131 / 45%);
+    transition: all 300ms ease 0ms;
+    cursor: pointer;
+    padding: 0.3em 1em;
+    text-transform: uppercase;
+    position: absolute;
+    right: 0px;
+  }
+  
+  .refForm-icon--inner {
+    position: absolute;
+    right: 12px;
+    top: 23px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .refForm-btn:hover .refForm-icon--inner {
+    opacity: 1;
+    visibility: visible;
+  }
+  .refForm-btn:hover .refForm-btn--inner {
+    border: 2px solid transparent;
+    padding: 0.3em 2em 0.3em 0.7em;
+  }
+
+.refForm-pre-btn {
+    /* margin-top: -30px !important; */
+    position: relative;
+    /* width: fit-content; */
+  }
+  
+  .refForm-pre-btn--inner {
+    font-family: "Fredoka One";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 27px;
+    color: #ffffff;
+    border-width: 12px !important;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    letter-spacing: 4px;
+    background-color: #ff7f59;
+    box-shadow: 0px 22px 64px -18px rgb(92 42 131 / 45%);
+    transition: all 300ms ease 0ms;
+    cursor: pointer;
+    padding: 0.3em 1em;
+    text-transform: uppercase;
+    position: absolute;
+    /* right: 0px; */
+  }
+  
+  .refForm-pre-icon--inner {
+    position: absolute;
+    left: 130px;
+    top: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.7s;
+  }
+  
+  .refForm-pre-btn:hover .refForm-pre-icon--inner {
+    opacity: 1;
+    visibility: visible;
+    left: 145px;
+  }
+  .refForm-pre-btn:hover .refForm-pre-btn--inner {
+    border: 2px solid transparent;
+    padding: 0.3em 2em 0.3em 0.7em;
+  }
+
+
+  .input-error{
+    color: red;
+  }
+.success-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4BB543;
+    flex-direction: column;
+padding: 100px;
+border-radius: 20px;
+}
+
+.success-title{
+    
+    font-family: "Fredoka One";
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    color: #ffffff;
+
+}
+.success-tag{
+    
+    font-family: "Fredoka One";
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 32px;
+    color: #ffffff;
+letter-spacing: 4px;
+text-align: center;
+    /* background-color: #4BB543; */
+}
+/* .refForm-buttons{
+  display: flex;
+ 
+  flex-direction: column-reverse;
+
+  gap: 70px;
+} */
+  @media (width<=980px) {
+      .refForm-input {
+          display: flex;
+          flex-direction: column;
+          row-gap: 20px;
+        }
+  }
+  
+  
+  @media (width<=750px) {
+      .refForm-title {
+          font-size: 30px;
+          line-height: 36px;
+   
+        }
+        .refForm-img{
+          height: 220px;
+         }
+         .refForm-img--inner{
+             height: 350px;
+             width: 100%;
+             max-width: 100%;
+         }
+  
+  
+  }
+  
+  @media  (width<=550px) {
+      .refForm-img{
+          height: 95px;
+          margin-top: 30px;
+         }
+         .refForm-img--inner{
+             height: 115px;
+             width: 100%;
+             max-width: 100%;
+         }
+  }
+  
+  @media (width<=550px) {
+      .refForm-input {
+          display: flex;
+          flex-direction: column;
+          row-gap: 10px;
+        }
+        .refForm-btn {
+          margin-top: 0 !important;
+          position: relative;
+          /* width: fit-content; */
+        }
+        .refForm-buttons{
+          display: flex;
+          flex-direction: column-reverse;
+          gap: 70px;
+        }
+        .refForm-btn--inner{
+          right: auto;
+        }
+  }

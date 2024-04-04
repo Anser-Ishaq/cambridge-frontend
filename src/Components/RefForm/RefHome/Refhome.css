@@ -1,0 +1,174 @@
+@font-face {
+    font-family: "Muli";
+    src: url(./../fonts/Muli-Regular.ttf)  
+  }
+  
+   
+  
+  .refhome-container--inner {
+    background-color: black;
+   
+  }
+  
+  .refhome-video{
+    width: 100%;
+  }
+  
+  .refhome-video--inner{
+    width: 100%;
+    height: 750px;
+  }
+  
+  .refhome-background {
+    background-image: url("../../Images//homebackground.png");
+    height: 856.756px;
+    transform: translate(0px, 170.512px);
+  
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .refhome-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 19rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+  }
+  .refhome-content--inner{
+      width: 80%;
+      margin: 0 auto;
+      padding: 0 10px 10px 10px;
+  }
+  
+  .refhome-title {
+    font-family: "Fredoka One";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 80px;
+    line-height: 112px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .desk-celta {
+    display: block;
+  }
+  .mob {
+    display: none;
+  }
+  
+  .refhome-tag {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 24px;
+    color: #ffffff;
+  
+    padding-top: 10px;
+  
+    text-align: center
+  }
+  
+  .refhome-para {
+    font-family: "Muli";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+  
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .refhome-btn{
+      display: flex;
+      justify-content: center;
+  }
+  
+  .refhome-btn--inner {
+    font-family: "Fredoka One";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 27px;
+    color: #ff236c;
+  
+    padding: 0.3em 1em !important;
+    border-width: 12px !important;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    letter-spacing: 4px;
+    margin-top: 60px;
+    box-shadow: 0px 12px 48px -6px rgb(0 0 0 / 30%);
+    cursor: pointer;
+  }
+  
+  /* .home-bottom--img {
+    background-image: url("	data:image/svg+xml;base64,   PHN2ZyB3aWR0aD0iMTAwJSIg…xMi4yMS04MC0yOS41MXY1NEgxMjgweiIvPjwvZz48L3N2Zz4= ");
+  } */
+  
+  @media (width<=1100px) {
+    .refhome-content {
+      padding-top: 16rem;
+    }
+  }
+  
+  @media (width<=980px) {
+    .refhome-title {
+      font-size: 60px;
+      line-height: 84px;
+    }
+    .mob {
+      display: inline-block;
+    }
+    .desk-celta {
+      display: none;
+    }
+    .refhome-para {
+      font-size: 18px;
+      line-height: 32px;
+    }
+  }
+  
+  @media (width<=750px) {
+    .refhome-content {
+      padding-top: 14.5rem;
+    }
+    .refhome-title {
+      font-size: 40px;
+      line-height: 56px;
+    }
+    .mob {
+      display: inline-block;
+    }
+    .desk-celta {
+      display: none;
+    }
+    .refhome-para {
+      font-size: 16px;
+      line-height: 29px;
+    }
+  }
+  
+  @media (width<=600px) {
+    .refhome-content {
+      padding-top: 13rem;
+    }
+  }
+  
+  @media (width<=430px) {
+      .refhome-content {
+        padding-top: 12rem;
+      }
+    }

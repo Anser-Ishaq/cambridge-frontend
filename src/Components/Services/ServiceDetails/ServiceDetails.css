@@ -1,0 +1,237 @@
+ .servicedetail-container--inner,.servicedetail-steps,.servicedetail-success {
+  width: 80%;
+  max-width: 1080px;
+  margin: auto;
+  position: relative;
+}
+
+.servicedetail-container--inner {
+  max-width: 950px;
+  margin: 0 auto;
+  padding-top: 60px;
+
+  font-family: Open Sans;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #666;
+}
+.servicedetail-steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.servicedetail-steps--title {
+  font-family: "Fredoka One";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #333333;
+  text-align: center;
+  padding: 27px 0 50px 0;
+}
+
+.servicedetail-steps--inner {
+  max-width: 550px;
+  margin: 0 auto;
+  position: relative;
+  width: 47.875%;
+  box-shadow: 0px 10px 60px -10px rgb(91 36 161 / 25%);
+  border-radius: 22px;
+  background-color: lightgray;
+  padding: 30px;
+  /* height: 250px; */
+}
+.servicedetail-steps--inner:hover {
+  box-shadow: 0px 40px 150px -10px rgb(91 36 161 / 12%);
+  cursor: pointer;
+}
+
+.servicedetail-title  {
+  font-family: "Fredoka One";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 40px;
+  color: #333333;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.servicedetail-success--title{
+    padding-top: 60px;
+    text-align: left;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 32px;
+    text-decoration: underline;
+    color: #333333;
+}
+.servicedetail-success--list_title{
+    font-family: "Open Sans";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: #333333;
+  padding: 10px 0;
+  text-decoration: underline;
+}
+ .servicedetail-success--list ul{
+    padding-left: 1.2rem;
+ }
+
+.servicedetail-para {
+  font-family: "Open Sans";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #666666;
+}
+
+.servicedetail-icons {
+  display: flex;
+  justify-content: center;
+}
+ 
+ 
+.servicedetail-icons--inner1 {
+  background: #5d58ef;
+  display: inline-block;
+  border-radius: 100%;
+  margin-bottom: 30px;
+  padding: 25px;
+}
+.servicedetail-icons--inner2 {
+  background: #ff236c;
+  display: inline-block;
+
+  border-radius: 100%;
+  margin-bottom: 30px;
+  padding: 25px;
+}
+.servicedetail-icons--inner3 {
+  background-color: #ffc259;
+  display: inline-block;
+  border-radius: 100%;
+  margin-bottom: 30px;
+  padding: 25px;
+}
+.servicedetail-icons--inner4 {
+  background-color: #ff7f59;
+  display: inline-block;
+  border-radius: 100%;
+  margin-bottom: 30px;
+  padding: 25px;
+}
+.servicedetail-icons--inner5 {
+  background-color: #62b6b7;
+  display: inline-block;
+  border-radius: 100%;
+  margin-bottom: 30px;
+  padding: 25px;
+}
+.servicedetail-icons--inner6 {
+  background-color: #88a47c;
+  display: inline-block;
+  border-radius: 100%;
+  margin-bottom: 30px;
+  padding: 25px;
+}
+.servicedetail-icons--inner7 {
+  background-color: #227C70;
+  display: inline-block;
+  border-radius: 100%;
+  margin-bottom: 30px;
+  padding: 25px;
+}
+.servicedetail-icons--inner8 {
+  background-color: #ce7777;
+  display: inline-block;
+  border-radius: 100%;
+  margin-bottom: 30px;
+  padding: 25px;
+}
+.servicedetail-curvy--img{
+    height: 240px;
+    margin-top: -95px;
+   }
+   .servicedetail-img--inner{
+       height: 390px;
+       width: 100%;
+       max-width: 100%;
+   }
+   .servicedetail-success--para,.servicedetail-success--list_inner{
+   font-family: "Open Sans";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #666666;
+   }
+.servicedetail-success--bottom{
+    text-align: center;
+    padding-top: 60px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #333333;
+    text-decoration: underline;
+}
+
+/* ! **************************************************************************** */
+
+
+ @media (width<=982px) {
+    .servicedetail-steps--inner{
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .servicedetail-steps--title {
+        font-size: 50px;
+            line-height: 60px;}
+ }
+
+@media (width<=770px) {
+    
+    .servicedetail-steps--title {
+font-size: 50px;
+    line-height: 60px;
+
+    font-size: 30px;
+    line-height: 36px;
+    }
+    .servicedetail-curvy--img{
+        height: 200px;
+       }
+       .servicedetail-img--inner{
+           height: 350px;
+           width: 100%;
+           max-width: 100%;
+       }
+}
+
+ @media (width<=550px) {
+ 
+       .servicedetail-curvy--img{
+        height: 80px;
+        margin-top: -30px;
+       }
+       .servicedetail-img--inner{
+           height: 125px;
+           width: 100%;
+           max-width: 100%;
+       }
+       .servicedetail-container--inner,.servicedetail-para,.servicedetail-success--para, .servicedetail-success--list_inner{
+        font-size: 14px;
+        line-height: 28px;
+       }
+       
+ }

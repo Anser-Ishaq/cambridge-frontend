@@ -6,15 +6,16 @@
   padding: 110px 0 27px 0;
   /* min-height: 576px; */
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 60px;
 }
 
 .card-container--inner {
+  background: lightgrey;
   height: fit-content;
-  width: 28.6667%;
+  width: 29.6667%;
   position: relative;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   border-radius: 22px 22px 22px 22px;
   overflow: hidden;
   padding-top: 60px !important;
@@ -27,12 +28,13 @@
     box-shadow 300ms ease 0ms;
 }
 .card-container--inner1 {
+  background: lightgrey;
     height: fit-content;
 
-  margin-top: 45px;
-  width: 28.6667%;
+  margin-top: 120px;
+  width: 29.6667%;
   position: relative;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   border-radius: 22px 22px 22px 22px;
   overflow: hidden;
   padding-top: 60px !important;
@@ -45,13 +47,12 @@
     box-shadow 300ms ease 0ms;
 }
 .card-container--inner2 {
+  background: lightgrey;
     height: fit-content;
-
   margin-top: 100px;
-  width: 28.6667%;
+  width: 29.6667%;
   position: relative;
-
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   border-radius: 22px 22px 22px 22px;
   overflow: hidden;
   padding-top: 60px !important;
@@ -82,7 +83,7 @@
   position: relative;
 }
 
-.card-img {
+.card-img1 {
   border-radius: 50%;
   background-color: #ff236c;
   justify-content: center;
@@ -122,9 +123,7 @@
   color: #333333;
   padding-bottom: 10px;
 }
-
-.card-para,
-.card-list {
+.card-para{
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 500;
@@ -134,14 +133,29 @@
 }
 
 .card-list {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #666666;
+}
+
+.card-list {
   text-align: left;
-  margin-left: 15px;
+  margin-left: -20px;
+}
+
+.card-list ul{
+  margin: 0;
 }
 
 .card-list2 {
   display: none;
 }
-
+.hide-second--card{
+  display: none;
+}
 
 @media (width<=980px) {
     .card-container{
@@ -155,4 +169,15 @@
       width: auto;
     }
    
+}
+
+@media (width<=550px) {
+  .card-list {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #666666;
+  }
 }

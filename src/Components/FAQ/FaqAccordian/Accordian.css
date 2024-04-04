@@ -1,0 +1,279 @@
+.accordian-container{
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+    position: relative;
+    padding-top: 50px;
+    margin-bottom: -60px;
+}
+
+.accordian-main{
+    padding: 60px 0 40px 0;
+    width: 100%;
+    display: flex;
+    gap: 100px;
+}
+
+.accordian-title{
+    font-family: "Fredoka One";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 72px;
+    color: #333333;
+    text-align: center;
+    margin-top: 23px;
+margin-bottom: 0;
+margin-left: auto;
+margin-right: auto;
+    padding: 27px 0;
+}
+.accordian-content{
+    display: flex;
+    padding: 27px 0;
+    gap: 40px;
+}
+.accordian-img--side{
+    width: 47.25%;
+    margin-bottom: 5.82%;
+    text-align: left;
+}
+.accordian-img--inner{
+    border-radius: 400px 400px 0 0;
+    width: 499px;
+    aspect-ratio: auto 499 / 333;
+    height: 333px;
+    max-width: 100%;
+}
+.accordian-img--title{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    padding-bottom: 1em;
+}
+.accordian-tag{
+    font-family: "Open Sans";
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+}
+ 
+.accordion-button:not(.collapsed){
+    background: none;
+    color: black;
+}
+.accordion-button:focus{
+   box-shadow: none;
+ 
+}
+
+.accordion-button::after {
+    background-image: url("./../../Images//plus-NN.svg");
+    background-size: 15px;
+    transition: none;
+     /* margin-right: -25px; */
+     opacity:0.3;
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url("./../../Images/minus-NN.svg");
+    background-size: 15px;
+ transform: none;
+ opacity:0.3;
+}
+.accordion-item{
+    border: none;
+}
+.accordion-button ,.accordion-button:not(.collapsed){
+    font-family: "Fredoka One";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ff7f59;
+    padding-right: 0px;
+}
+.accordion-body{
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #666666;
+    padding-right: 0;
+    max-width: 460px;
+    padding-left: 0;
+    
+}
+.accordian-down--btn{
+    margin: 30px 0px 0 20px;
+    position: relative;
+    width: fit-content;
+ }
+
+ .accordian-btn--inner{
+    font-family: "Fredoka One";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 27px;
+    color: #ffffff;
+    border-width: 12px!important;
+    border-color: rgba(0,0,0,0);
+    border-radius: 50px;
+    letter-spacing: 4px;
+    background-color: #ff7f59;
+    box-shadow: 0px 22px 64px -18px rgb(92 42 131 / 45%);
+    transition: all 300ms ease 0ms;
+    cursor: pointer;
+     padding: 0.3em 1em;
+ }
+
+ .accordian-icon--inner{
+    position: absolute;
+    right: 12px;
+    top: 21px;
+    opacity:0 ;
+    visibility: hidden;
+ }
+ 
+ .accordian-down--btn:hover .accordian-icon--inner{
+    opacity: 1;
+    visibility: visible;
+ }
+ .accordian-down--btn:hover .accordian-btn--inner {
+    border: 2px solid transparent;
+    padding: 0.3em 2em 0.3em 0.7em;
+}
+.accordion-item:first-of-type .accordion-button{
+    padding-right: 0px;
+}
+ 
+.accordian-right, .accordian-left{
+    width: auto;
+}
+.accordion-button::after{
+    margin-right: 0px;
+    position: absolute;
+    right: 0px;
+}
+.accordion-button{
+    padding-left: 0px;
+    padding-right: 50px !important;
+    position: relative;
+    
+}
+.accordion-header{
+    max-width: 460px;
+}
+.accordion-body ul{
+    padding-left: 1.2rem !important;
+    margin-bottom: 0;
+}
+.accordian-wave{
+    height: 200px;
+    margin-top: -50px;
+   }
+   .accordian-wave--inner{
+       height: 390px;
+       width: 100%;
+       max-width: 100%;
+   }
+@media (width<=980px) {
+    .accordian-title{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .accordian-content{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .accordian-img{
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .accordian-main{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        flex-direction: column;
+        gap: 0px;
+    }
+    
+    .accordion-button{
+        padding-left: 0px;
+        padding-right: 50px !important;
+        position: relative;
+        
+    }
+    .accordian-img--side, .accordian-main{
+        width: auto;
+    }
+    
+    .accordion-button::after{
+        margin-right: 0px;
+        position: absolute;
+        right: 0px;
+    }
+    .accordian-down--btn{
+        margin: 30px 0 0 0;
+    }
+    .accordian-title{
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .accordion-body{
+       padding-left: 0;
+        padding-right: 0;
+        max-width: 100%;
+        
+    }
+    
+    .accordion{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .accordion-header{
+        max-width: 100% !important;
+    }
+}
+
+@media (width<=750px) {
+    .accordian-title{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .accordian-wave{
+        height: 145px;
+       }
+.accordian-wave--inner{
+           height: 350px;
+           width: 100%;
+           max-width: 100%;
+       }
+}
+
+@media (width<=500px) {
+    .accordian-wave{
+        height: 16px;
+        margin-top: 22px;
+       }
+       
+       .accordian-wave--inner{
+           height: 125px;
+           width: 100%;
+           max-width: 100%;
+       }
+       .accordion-body{
+        font-size: 14px;
+        line-height: 28px;
+       }
+}

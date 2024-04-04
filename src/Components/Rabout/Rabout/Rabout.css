@@ -1,0 +1,250 @@
+ .Rabout-upper--content,.Rabout-container--inner{
+  width: 80%;
+  max-width: 1080px;
+  margin: auto;
+  position: relative;
+  padding: 60px 0 0px 0;
+  overflow: hidden;
+}
+
+.Rabout-title {
+  font-family: Fredoka One;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #333;
+  text-align: center;
+}
+
+.Rabout-lists {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 0 0 1rem;
+
+  font-family: "Open Sans";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #666;
+}
+
+.Rabout-weather--title {
+  font-family: "Fredoka One";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #333;
+  /* text-align: center; */
+}
+.Rabout-weather--para {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 0 30px 0;
+
+  font-family: Open Sans;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #666;
+  text-align: left;
+}
+
+.Rabout-cardTitle {
+  font-family: Fredoka One;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #333;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.Rabout-card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 50px 0;
+}
+.Rabout-card2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.Rabout-para {
+  max-width: 600px;
+
+  font-family: Open Sans;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #666;
+
+  display: flex;
+  align-items: center;
+}
+
+.Rabout-card--img_inner {
+  height: 285px;
+  width: 400px;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+  margin-top: 30px;
+
+  -webkit-box-shadow: -7px 6px 37px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -7px 6px 37px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: -7px 6px 37px -6px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  transition: all 0.5s ease-in-out 1;
+}
+
+.Rabout-card--img_inner:hover {
+  -webkit-box-shadow: -7px 6px 22px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -7px 6px 22px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: -7px 6px 22px -9px rgba(0, 0, 0, 0.75);
+}
+.desk-Rabout-city--name {
+  font-family: Fredoka One;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28px;
+  /* after 770 0r 550. will turn 28px to 22px */
+  line-height: 40px;
+  color: #333;
+}
+
+.mob-Rabout-city--name {
+  display: none;
+}
+.Rabout-img--side {
+  width: 38%;
+}
+
+.Rabout-content {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+}
+
+.Rabout-curvy--img {
+  height: 200px;
+  margin-top: -30px;
+}
+.Rabout-curvy--img_inner {
+  height: 390px;
+  width: 100%;
+  max-width: 100%;
+}
+
+@media (width<=1260px) {
+  .Rabout-para {
+    max-width: 600px;
+  }
+}
+
+@media (width<=980px) {
+  .Rabout-title,
+  .Rabout-cardTitle {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .Rabout-card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 30px;
+    gap: 30px;
+    padding:0px 0 50px 0;
+  }
+  .Rabout-card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    gap: 30px;
+    padding:0px 0 50px 0;
+  }
+
+  .Rabout-img--side,
+  .Rabout-para,
+  .Rabout-content,
+  .Rabout-card--img_inner {
+    width: 100%;
+    max-width: 100%;
+  }
+  .Rabout-card--img_inner {
+    /* padding-bottom: 30px; */
+    height: 300px;
+    border-radius: 20px;
+  }
+
+  .mob-Rabout-city--name {
+    display: block;
+    font-family: "Fredoka One";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
+    /* after 770 0r 550. will turn 28px to 22px */
+    line-height: 40px;
+    color: #333;
+  }
+  .desk-Rabout-city--name {
+    display: none;
+  }
+ 
+}
+
+@media (width<=770px) {
+  .Rabout-title,
+  .Rabout-cardTitle {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .mob-Rabout-city--name {
+    font-size: 20px;
+  }
+  .Rabout-curvy--img {
+    height: 180px;
+  }
+  .Rabout-curvy--img_inner {
+    height: 350px;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (width<=550px) {
+  .Rabout-lists ul {
+    padding-left: 1rem;
+  }
+  .Rabout-weather--para {
+    font-size: 14px;
+    text-align: left;
+    line-height: 28px;
+  }
+
+  .Rabout-lists,
+  .Rabout-para {
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .Rabout-curvy--img {
+    height: 50px;
+    margin-top: 15px;
+  }
+  .Rabout-curvy--img_inner {
+    height: 125px;
+    width: 100%;
+    max-width: 100%;
+  }
+}

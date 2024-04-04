@@ -1,0 +1,182 @@
+.refcard-container{
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+    position: relative;
+    padding-top: 60px;
+}
+.refcard-container--inner{
+    display: flex;
+    padding: 35px 0;
+    text-align: center;
+    column-gap: 40px;
+}
+
+.refcard-title{
+    font-family: Fredoka One;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 72px;
+    color: #333;
+    text-align: center;
+}
+
+.refcards--inner{
+    max-width: 550px;
+    margin: 0 auto;
+    position: relative;
+    width: 20.875%;
+    box-shadow: 0 10px 60px -10px #5b24a140;
+    border-radius: 22px;
+    background-color: #d3d3d3;
+    padding: 30px 10px;
+}
+.refcards--inner:hover{
+    box-shadow: 0px 40px 150px -10px rgb(91 36 161 / 12%);
+    cursor: pointer;
+}
+
+.refcards-icon1{
+    background: #5F8D4E;
+    display: inline-block;
+    border-radius: 100%;
+    margin-bottom: 30px;
+    padding: 25px;
+}
+.refcards-icon2{
+    background: #3B185F;
+    display: inline-block;
+    border-radius: 100%;
+    margin-bottom: 30px;
+    padding: 25px;
+}
+.refcards-icon3{
+    background: #7FE9DE;
+    display: inline-block;
+    border-radius: 100%;
+    margin-bottom: 30px;
+    padding: 25px;
+}
+.refcards-icon4{
+    background: #EB455F;
+    display: inline-block;
+    border-radius: 100%;
+    margin-bottom: 30px;
+    padding: 25px;
+}
+
+.refcards-icons--inner{
+    height: 48px;
+    width: 48px;
+    color: #fff;
+}
+
+.refcard-title--inner{
+    font-family: "Fredoka One";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 40px;
+    color: #333;
+    padding-bottom: 10px;
+}
+
+.refcard-detail{
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #666;
+}
+.refcard-curvy--img{
+    height: 200px;
+    margin-top: -40px;
+}
+.refcard-img--inner{
+    height: 390px;
+    width: 100%;
+    max-width: 100%;
+}
+/* ! ******************************************** */
+.refcard-terms{
+    padding-top: 50px;
+}
+
+.refcard-terms--title{
+    text-align: left;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 32px;
+    text-decoration: underline;
+    color: #333333;
+}
+.refcard-terms--list{
+    padding: 0 0 0 1.2rem;
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #666666;
+}
+@media (width<=980px) {
+    .refcards--inner{
+        max-width: 550px;
+    margin: 0 auto;
+    position: relative;
+    width: 45%;
+    }
+    .refcard-container--inner{
+        display: flex;
+    flex-wrap: wrap!important;
+    column-gap: 40px;
+    row-gap: 30px;
+    }
+
+    .refcard-title{
+        font-size: 50px;
+    line-height: 60px;
+    }
+}
+
+@media (width<=770px) {
+    .refcard-title{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .refcard-curvy--img{
+        height: 180px;
+    }
+    .refcard-img--inner{
+        height: 350px;
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (width<=500px) {
+    .refcards--inner{
+        max-width: 550px;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    }
+    .refcard-curvy--img{
+        height: 50px;
+        margin-top: 20px;
+    }
+    .refcard-img--inner{
+        height: 125px;
+        width: 100%;
+        max-width: 100%;
+    }
+    .refcard-terms--list{
+        font-size: 14px;
+        line-height: 28px;
+       
+    }
+}
